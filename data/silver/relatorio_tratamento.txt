@@ -1,0 +1,15 @@
+[extração] 14626 linhas, 22 colunas (encoding=latin-1)
+[redundância] coluna 'codigo_ocorrencia1' idêntica a codigo_ocorrencia: removida
+[redundância] coluna 'codigo_ocorrencia2' idêntica a codigo_ocorrencia: removida
+[redundância] coluna 'codigo_ocorrencia3' idêntica a codigo_ocorrencia: removida
+[redundância] coluna 'codigo_ocorrencia4' idêntica a codigo_ocorrencia: removida
+[duplicidades] 0 registros removidos (linha completa ou código repetido)
+[ausentes] ocorrencia_uf: 25 valores -> 'NÃO INFORMADO'
+[ausentes] coordenadas ausentes mantidas como NULL: 4422
+[ausentes] hora ausente mantida como NULL: 2
+[ausentes] data de publicação ausente (relatório não publicado): 12019
+[outliers] coordenadas fora do Brasil anuladas: 146
+[outliers] datas de ocorrência futuras anuladas: 0
+[outliers] recomendações > 6 (IQR) sinalizadas: 117 (valores mantidos)
+[outliers] ocorrências com 0 aeronaves sinalizadas: 1
+[prata] 14626 linhas gravadas em C:\Users\Álvaro Santos\Downloads\etl_ocorrencias\data\silver\ocorrencia_limpo.csv
